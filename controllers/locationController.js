@@ -17,7 +17,7 @@ exports.location_get = asyncHandler(async (req, res, next) => {
         console.log(`Locations query result: ${locations}`);
         res.json(locations);
     } catch (error) {
-        console.error(error); // Log the error
+        console.error(error);
         res.status(500).send(error.message);
     }
 });

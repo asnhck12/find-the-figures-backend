@@ -10,11 +10,4 @@ router.get('/image', image_controller.image_get);
 /* GET locations */
 router.get('/location/:imageName', location_controller.location_get);
 
-
-// /* Post image */
-// router.post('/image/new', image_controller.image_post);
-
-/* Post locations */
-// router.post('/new', location_controller.location_post);
-
 module.exports = router;
